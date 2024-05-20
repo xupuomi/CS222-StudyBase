@@ -1,0 +1,58 @@
+.navbar-container {
+  width: 100%;
+  align-items: center;
+}
+
+.ml {
+  margin-left: 36px;
+}
+
+.navbar {
+  background-color: rgb(19, 41, 75); 
+  color: white; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  width: 97vw;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-start,
+.navbar-end {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-item {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  margin-right: 10px;
+  background-color: white; 
+  color: rgb(19, 41, 75); 
+}
+
+.searchBar input {
+  background-color: white; 
+  color: rgb(19, 41, 75);
+}
+
+.has-white-text {
+  color: white; 
+}
+
+.button.is-primary {
+  background-color: rgb(19, 41, 75); 
+}

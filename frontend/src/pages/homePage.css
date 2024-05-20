@@ -1,0 +1,103 @@
+#root {
+  /*max-width: 1280px;*/
+  margin: 0 auto;
+  /*padding: 2rem;*/
+  text-align: center;
+  align-items: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.app-container {
+  background-color: #f5f5f5; 
+  min-height: 100vh;
+}
+
+.content {
+  /*max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;*/
+  text-align: center;
+}
+
+.con {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.home-page .content {
+  display: flex;
+  flex: 1;
+  margin-top: 2px; 
+}
+
+.home-page .left-column {
+  flex: 2;
+  padding: 20px;
+  background-color: #ffffff; 
+  overflow-y: auto;
+}
+
+.home-page .right-column {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9; 
+  overflow-y: auto;
+}
+
+.home-page .note,
+.home-page .course {
+  color: #000;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  border: 1px solid darkslategray;
+}
+
+.home-page h2 {
+  margin-bottom: 10px;
+  color: #13294B; 
+}
