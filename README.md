@@ -29,6 +29,7 @@ Set-up a virtual environment before installing any packages
 python3 -m venv .venv
 ...venv/bin/activate
 ```
+The code runs in Linux
 
 # Installations
 
